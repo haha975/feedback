@@ -1,0 +1,4 @@
+/* Smooth transition animations for form and success message */
+.form-container, .success-message {
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out, height 0.3s ease-in-out;
+}
